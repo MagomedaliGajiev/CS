@@ -15,7 +15,7 @@ if (number > 99)
 {
     while (number > 999)
     {
-        number /= 10;
+        number /= 10; // number = number / 10
     }
 
     int result = number % 10;
