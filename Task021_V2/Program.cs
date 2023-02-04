@@ -20,7 +20,7 @@ int Yb = int.Parse(Console.ReadLine()!);
 Console.Write("Введите координаты Zb: ");
 int Zb = int.Parse(Console.ReadLine()!);
 
-// AB = √((xb - xa)^2 + (yb - ya)^2 + (zb - za)^2) - формула нахождения растояния между точками A и B в трехмерном помтранстве 
+// AB = √((xb - xa)^2 + (yb - ya)^2 + (zb - za)^2) - формула нахождения растояния между точками A и B в трехмерном пространстве 
 double x = Math.Pow(Xb - Xa, 2) + Math.Pow(Yb - Ya, 2) + Math.Pow(Za - Zb, 2);
 double len = Math.Sqrt(x);  // находим растояние между точками A и B
 
