@@ -19,4 +19,4 @@ int GetSum(int  number)
 Console.Write("Введите числа A: ");
 int A = int.Parse(Console.ReadLine()!);
 
-System.Console.WriteLine(GetSum(A));
+System.Console.WriteLine($"Сумма чисел от 1 до {A} равна {GetSum(A)}");
