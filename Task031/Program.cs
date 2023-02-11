@@ -16,7 +16,7 @@ int[] GetArray(int size, int minValue, int maxValue)
 }
 
 int[] arr = GetArray(12, -9, 9);
-Console.WriteLine(string.Join(", ", arr));
+Console.WriteLine(String.Join(", ", arr));
 
 int positiveSum = 0;
 int negativeSum = 0;
