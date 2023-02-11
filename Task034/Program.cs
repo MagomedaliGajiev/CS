@@ -23,6 +23,6 @@ int CountEvenNumbers(int[] collection)
     return result;
 }
 
-int[] myArray = GetArray(new Random().Next(3, 13), 100, 1000); // Задаем массив размерностью от 3 до 12 с трехзначными числами
+int[] myArray = GetArray(new Random().Next(3, 13), 100, 999); // Задаем массив размерностью от 3 до 12 с трехзначными числами
 int evenNumbers = CountEvenNumbers(myArray);
 Console.WriteLine($"[{String.Join(", ", myArray)}] -> {evenNumbers}");
