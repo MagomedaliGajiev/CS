@@ -34,7 +34,7 @@ void PrintArray(int[,] array2D)
 
 void GetRowMinSumOfElements(int[,] inArray)
 {
-    int min = 0;
+    int min = -10000;
     int minRow = 1;
     int sum;
     bool isStarted = false;
@@ -65,7 +65,7 @@ int rows = int.Parse(Console.ReadLine()!);
 Console.Write("columns = ");
 int columns = int.Parse(Console.ReadLine()!); 
 
-int[,] myArray = GetArray2D(rows, columns, -10, 10);
+int[,] myArray = GetArray2D(rows, columns, 1, 10);
 Console.WriteLine();
 PrintArray(myArray);
 GetRowMinSumOfElements(myArray);
